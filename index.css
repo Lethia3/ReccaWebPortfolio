@@ -600,8 +600,8 @@ footer{
   .boxes {
       grid-template-columns: 1fr;
       gap: 5px;
-       font-size: 8px;
-    margin-bottom:40px;
+       font-size: 12px;
+  
   }
   .skill-back{
     
