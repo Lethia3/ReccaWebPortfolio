@@ -472,14 +472,14 @@ footer{
   align-items: center;
   }
   .goal {
-      margin-bottom:30px;
+     
       padding: 20px;
       width: auto;
       
       color: white;
       align-items: center;
       gap: 20px;
-      height: 900px;
+      height: 700px;
   }
   .me{
     grid-template-columns: repeat(1, 1fr);
@@ -512,7 +512,7 @@ footer{
   .boxes {
       grid-template-columns: 1fr;
       gap: 5px;
-    font-size: 8px;
+    font-size: 12px;
     margin-bottom:30px;
   }
   .skill-back{
