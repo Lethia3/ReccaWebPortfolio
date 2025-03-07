@@ -513,6 +513,7 @@ footer{
       grid-template-columns: 1fr;
       gap: 5px;
     font-size: 8px;
+    margin-bottom:30px;
   }
   .skill-back{
     grid-template-columns: repeat(1, 1fr);
