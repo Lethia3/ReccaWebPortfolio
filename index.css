@@ -435,7 +435,6 @@ footer{
 }
 
 
-/* Mobile devices (up to 600px) */
 @media (max-width: 480px) {
   
   header {
@@ -450,19 +449,27 @@ footer{
  
   .sticky-nav ul {
       gap: 20px;
+      align-items: center;
   }
   
   .logo {
       height: 40px;
   }
   .round-image {
+    height: 300px;
+    width: 300px;
     display: block;  
     margin: 0 auto; 
 }
-  
+  .video-bg{
+    height: 900px;
+  }
   .home{
-    height: 500px;
+    height: 700px;
     padding: 20px;
+    
+  justify-content: center;
+  align-items: center;
   }
   .goal {
       margin:auto;
@@ -476,7 +483,8 @@ footer{
   }
   .me{
     grid-template-columns: repeat(1, 1fr);
-    height: 700px;
+    height: 800px;
+    font-size: 8px;
     
   }
   .sticky-nav{
@@ -496,12 +504,18 @@ footer{
       text-align: center;
   }
   .contact {
-      width: 80%;
+      width: 70%;
+      font-size: 20px;
   }
  
   .boxes {
       grid-template-columns: 1fr;
       gap: 5px;
+  }
+  .skill-back{
+    grid-template-columns: repeat(1, 1fr);
+    height: auto;
+    align-items: center;
   }
  
 }
@@ -564,11 +578,12 @@ padding-bottom: px;
   padding-bottom: 220px;
  }
  .skill-back{
-  height: 450px;
+ align-items: center;
+height: 700px;
  }
 
 }
-/* Tablets (601px to 1024px) */
+
 @media (min-width: 769px) and (max-width: 2000px) {
   header {
    padding: 5px;
@@ -659,6 +674,12 @@ padding-bottom: px;
   .last{
     height: 500px;
     width: auto;
+  
+  }
+
+}
+
+
   
   }
 
