@@ -600,9 +600,7 @@ footer{
       gap: 5px;
   }
   .skill-back{
-    grid-template-columns: repeat(1, 1fr);
-    height: 700px;
-    align-items: center;
+  
   }
  
 }
